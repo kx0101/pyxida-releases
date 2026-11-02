@@ -1,51 +1,51 @@
 {
-  "version": "0.5.0",
-  "notes": "### Added\n- Arrange the four Money sections by dragging or from Customize layout. The order follows your workspace across devices and works on phones too.\n- Delete or archive goals and savings accounts directly from their cards, without opening Edit.\n- Settings now group every option into six searchable categories, with a desktop sub-navigation and a phone category list with short descriptions.\n- Version history loads older versions and deleted files in pages instead of displaying everything at once. Day labels stay visible while scrolling, and small files show their size in bytes.\n- Install and configure Pyxida from a terminal without opening the app, with checksummed downloads and automatic agent connections.\n- Start Pyxida at login without a window. The tray menu can open it, sync now or quit; closing the window keeps it running when background startup is enabled.\n- Today starts with the five most urgent overdue deadlines and their days late. Show all expands the list without hiding the rest of your day.\n- Tasks due today or tomorrow have clear orange labels. Overdue tasks appear in a quiet, flat list with their parent path; reschedule one from its menu, complete it with its checkbox, or reschedule all with confirmation when there are many and an Undo option.\n- Today and the app icon show the number of overdue tasks.\n- Optional morning notifications summarize overdue and upcoming deadlines at a chosen local time. Preferences travel with the workspace.",
-  "pub_date": "2026-10-29T03:27:49.148Z",
+  "version": "0.6.0",
+  "notes": "### Added\n- Per-device areas: choose which areas each device syncs. A device given only some areas, such as a work laptop with only Work, cannot decrypt your other areas, Money, Learning or Vault, while your own computer keeps one combined view.\n- A guided setup in Settings > Sync checks that every device runs this version, previews what moves to each area, makes a backup and switches with one Undo. It can turn the feature off again the same way.\n- New devices can sync everything or only some areas. Another of your devices approves the request, and you can revoke an area from any device later.\n- A device with only some areas hides Money, Learning, Sketches and Vault. Switch to full device unlocks everything with your passphrase or recovery key.\n- Calendar events and notes can belong to an area.\n\n### Changed\n- Area tags reserved by Windows, such as con or nul, can no longer be used for new or renamed areas.\n\n### Fixed\n- Renaming or deleting an area changes only the tag in each task and keeps the rest of the line as written.",
+  "pub_date": "2026-11-02T14:32:36.063Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWhQTU9YaUhLOVdJSjdaWVRHNnk1S1l5Z3FUM1MwSUVlU0NsTTlrWnY0VFRlSktFaXRSVm55WjBDSVNhU3J0QUtPZEIyMlNhNCt5aURTSVlvVmVCSXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQzNjM4CWZpbGU6UHl4aWRhLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuMAo5d2ErTXhZYlBSd2ZCYWozOUljT2JMMDAwb3VtRjdycWxLeEQ3L1lNOUUyM3BRZkV2WXhoc3JhaXJCbi9rZEZBR0d3NlZWQXMxK3B0c01KYkFjem1BUT09Cg==",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSXFWWlcxemsvV1Q2MDNwcTNxck52Q3p1ajNmamdHU2ovY2VOZHBFeTVDVHNiclRxVEdlT0NmSWZ5WTlDeGQ3WnRRK1l5OVY3VEp0VWdyQzJyRXlBVXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5MjI4CWZpbGU6UHl4aWRhLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMApONW5haXRsTTY3OThST2pteEEwZzNwaGtESDNSWGowVlpPQWpHNFhMS05lS3V2U0sxYnU5anh2a0JiaEpSM3oxMVFFb1ltVnFDalg2KzNuelcxSnpCdz09Cg==",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWhQTU9YaUhLOVdJSjdaWVRHNnk1S1l5Z3FUM1MwSUVlU0NsTTlrWnY0VFRlSktFaXRSVm55WjBDSVNhU3J0QUtPZEIyMlNhNCt5aURTSVlvVmVCSXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQzNjM4CWZpbGU6UHl4aWRhLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuMAo5d2ErTXhZYlBSd2ZCYWozOUljT2JMMDAwb3VtRjdycWxLeEQ3L1lNOUUyM3BRZkV2WXhoc3JhaXJCbi9rZEZBR0d3NlZWQXMxK3B0c01KYkFjem1BUT09Cg==",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSXFWWlcxemsvV1Q2MDNwcTNxck52Q3p1ajNmamdHU2ovY2VOZHBFeTVDVHNiclRxVEdlT0NmSWZ5WTlDeGQ3WnRRK1l5OVY3VEp0VWdyQzJyRXlBVXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5MjI4CWZpbGU6UHl4aWRhLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMApONW5haXRsTTY3OThST2pteEEwZzNwaGtESDNSWGowVlpPQWpHNFhMS05lS3V2U0sxYnU5anh2a0JiaEpSM3oxMVFFb1ltVnFDalg2KzNuelcxSnpCdz09Cg==",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_universal.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWhQTU9YaUhLOVdJSjdaWVRHNnk1S1l5Z3FUM1MwSUVlU0NsTTlrWnY0VFRlSktFaXRSVm55WjBDSVNhU3J0QUtPZEIyMlNhNCt5aURTSVlvVmVCSXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQzNjM4CWZpbGU6UHl4aWRhLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuMAo5d2ErTXhZYlBSd2ZCYWozOUljT2JMMDAwb3VtRjdycWxLeEQ3L1lNOUUyM3BRZkV2WXhoc3JhaXJCbi9rZEZBR0d3NlZWQXMxK3B0c01KYkFjem1BUT09Cg==",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSXFWWlcxemsvV1Q2MDNwcTNxck52Q3p1ajNmamdHU2ovY2VOZHBFeTVDVHNiclRxVEdlT0NmSWZ5WTlDeGQ3WnRRK1l5OVY3VEp0VWdyQzJyRXlBVXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5MjI4CWZpbGU6UHl4aWRhLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMApONW5haXRsTTY3OThST2pteEEwZzNwaGtESDNSWGowVlpPQWpHNFhMS05lS3V2U0sxYnU5anh2a0JiaEpSM3oxMVFFb1ltVnFDalg2KzNuelcxSnpCdz09Cg==",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_universal.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWhQTU9YaUhLOVdJSjdaWVRHNnk1S1l5Z3FUM1MwSUVlU0NsTTlrWnY0VFRlSktFaXRSVm55WjBDSVNhU3J0QUtPZEIyMlNhNCt5aURTSVlvVmVCSXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQzNjM4CWZpbGU6UHl4aWRhLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuMAo5d2ErTXhZYlBSd2ZCYWozOUljT2JMMDAwb3VtRjdycWxLeEQ3L1lNOUUyM3BRZkV2WXhoc3JhaXJCbi9rZEZBR0d3NlZWQXMxK3B0c01KYkFjem1BUT09Cg==",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_universal.app.tar.gz"
-    },
-    "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSW9qekd2OVo4SHRqUWkycEZ1dFA2RUhlTTdNekplSHptaXlPbWtGMGNGcFNRNjZaUlAyTHlmc2J1NHNKUGl0clhpWmEwaGJWaUIzc1JnaXlxbnhmQ0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQzOTI2CWZpbGU6UHl4aWRhXzAuNS4wX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC41LjAKUmlEbS8vMys4a0p3MFkwNzhYTCs4YndhVGFMR2laWEtwL1ZTRHdhME9yZXZja2Z5Z3hlUG1HdlZQSWh6dVZUVmVtcjJONTJFSDRTSzJUaFFOUmNZQlE9PQo=",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_0.5.0_amd64.AppImage"
-    },
-    "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSW9qekd2OVo4SHRqUWkycEZ1dFA2RUhlTTdNekplSHptaXlPbWtGMGNGcFNRNjZaUlAyTHlmc2J1NHNKUGl0clhpWmEwaGJWaUIzc1JnaXlxbnhmQ0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQzOTI2CWZpbGU6UHl4aWRhXzAuNS4wX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC41LjAKUmlEbS8vMys4a0p3MFkwNzhYTCs4YndhVGFMR2laWEtwL1ZTRHdhME9yZXZja2Z5Z3hlUG1HdlZQSWh6dVZUVmVtcjJONTJFSDRTSzJUaFFOUmNZQlE9PQo=",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_0.5.0_amd64.AppImage"
-    },
-    "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSXRYR0Y4VXhMcmFkYlJBU0ZvZXkrS2xHU3VkcjNucDlDSmlBb3JMUGhTVDZkTzZjRXZJMlJzVHF1aEdRVjUzb081U3NYbFF6a253VTdhQmYzNU50ZkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQzOTI2CWZpbGU6UHl4aWRhXzAuNS4wX2FtZDY0LmRlYgl2ZXJzaW9uOjAuNS4wCktqK0hFUkpZenVZbFNKRUxRQkFhSWZpNWU3TEJqWjQxZ1huZTk1OHlqalFwL0IvMUVZb1dqemVMTVcxS0hSNTBEVDZhY0htY08wT2k0c1U0Q3lQYUJRPT0K",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_0.5.0_amd64.deb"
-    },
-    "linux-x86_64-rpm": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWxxVDJOdis5a2tkdWJoQU1WOVM2SmJURUlYbHM4aVZMNHJ3aUJQaVhQdEdOT0V1ZlBXTHE4M01ZalpoV3AyN01xOE96Sy9kT3VSL1pDTEVWQW51Z3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQzOTI2CWZpbGU6UHl4aWRhLTAuNS4wLTEueDg2XzY0LnJwbQl2ZXJzaW9uOjAuNS4wCjB2Mks4ZDlxRjJjV0tRVk55dUlzUkw5czRRQ1hlQisxYmowNlFjaXZEOHhlK0w5VDlidm9ieXgrajVVSUowNG1BWDhDSzREY1VoM1RYc3RTUGROZEJnPT0K",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida-0.5.0-1.x86_64.rpm"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSXFWWlcxemsvV1Q2MDNwcTNxck52Q3p1ajNmamdHU2ovY2VOZHBFeTVDVHNiclRxVEdlT0NmSWZ5WTlDeGQ3WnRRK1l5OVY3VEp0VWdyQzJyRXlBVXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5MjI4CWZpbGU6UHl4aWRhLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMApONW5haXRsTTY3OThST2pteEEwZzNwaGtESDNSWGowVlpPQWpHNFhMS05lS3V2U0sxYnU5anh2a0JiaEpSM3oxMVFFb1ltVnFDalg2KzNuelcxSnpCdz09Cg==",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_universal.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWp6R1Z0d2F6bHBSRlNOc21yb0VxQVB1Tzg4TUY2NDVVemZ5NUJINlpNdFROV01LRXU0MUhxaWNWZ1B5MDJ0d1hwdHhaN2FwV3pRY0FwZDRDQ1BHQlFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQ0NDYyCWZpbGU6UHl4aWRhXzAuNS4wX3g2NF9lbi1VUy5tc2kJdmVyc2lvbjowLjUuMAorNFZiNnlFaUVVM3dOZ3NzcWIyOEliSXZQZzk0NWh5SzUyUk1TV1J0Wk95a1A3K3hacjFiLzE3U09aaUJlZis0OE9rWlM2Q2RJVHdFYUo3eUhScG5EQT09Cg==",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_0.5.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWtDYUVOOUFIazRWQnZ1UHpRclBaUzhCK1VFQXJ4MERheGF6NmU0QUVNRHlmc3ZkdFZnaGVna1ZjZlBlVDNLNFdIRVVlNlo1bVlVS3hHMnNZajJMTFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5OTM3CWZpbGU6UHl4aWRhXzAuNi4wX3g2NF9lbi1VUy5tc2kJdmVyc2lvbjowLjYuMApDdk1SSFBENkdOWHMxVkFTOEdXZVpNblJWWGxxRnBsbVpVVE5UdVpmN2ZNZGVnNk84aXUyT09VbWpmQldEVzdkaHVLZFEvQlNSYU9aQTJ4VTBwWThCdz09Cg==",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_0.6.0_x64_en-US.msi"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWp6R1Z0d2F6bHBSRlNOc21yb0VxQVB1Tzg4TUY2NDVVemZ5NUJINlpNdFROV01LRXU0MUhxaWNWZ1B5MDJ0d1hwdHhaN2FwV3pRY0FwZDRDQ1BHQlFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQ0NDYyCWZpbGU6UHl4aWRhXzAuNS4wX3g2NF9lbi1VUy5tc2kJdmVyc2lvbjowLjUuMAorNFZiNnlFaUVVM3dOZ3NzcWIyOEliSXZQZzk0NWh5SzUyUk1TV1J0Wk95a1A3K3hacjFiLzE3U09aaUJlZis0OE9rWlM2Q2RJVHdFYUo3eUhScG5EQT09Cg==",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_0.5.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSWtDYUVOOUFIazRWQnZ1UHpRclBaUzhCK1VFQXJ4MERheGF6NmU0QUVNRHlmc3ZkdFZnaGVna1ZjZlBlVDNLNFdIRVVlNlo1bVlVS3hHMnNZajJMTFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5OTM3CWZpbGU6UHl4aWRhXzAuNi4wX3g2NF9lbi1VUy5tc2kJdmVyc2lvbjowLjYuMApDdk1SSFBENkdOWHMxVkFTOEdXZVpNblJWWGxxRnBsbVpVVE5UdVpmN2ZNZGVnNk84aXUyT09VbWpmQldEVzdkaHVLZFEvQlNSYU9aQTJ4VTBwWThCdz09Cg==",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_0.6.0_x64_en-US.msi"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSW5FZDAzUTl2YTk2L1ZmN0huamViVkEwQStYNXNlYUlNL1hVMTNGeE15WVdyRWNFa3ZlTWZXNWs2OWhHem9NRUN4SmZKeTdCYVFLeWprdDIrZXJGRmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjQ0NDYyCWZpbGU6UHl4aWRhXzAuNS4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMApmSVNJVEphOGxGVktYeXJWb1paWHZQTXNaakg3UDBXZXJOYU1na08zakorRVZFVGNvMnNmR3NNWkRNQVczcXJuemFDWjZVZkNHRG4wRTRzKytXSitDZz09Cg==",
-      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.5.0/Pyxida_0.5.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSW9aYnpxUW15aVpnNmlCYmwrdE40dFVKNWU3Q2RzVUhPSjR5MjduUW52bVRzdEoyZWV3UkR3bHE2N3NiaE4zeGN1WHVsUS9wUWpUUWQvdVJucXRKRXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5OTM4CWZpbGU6UHl4aWRhXzAuNi4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjYuMApubWUrRFFlOW1pTHh1ZGtON3htSUVvOXNTZWhSZXRhMXhKTGU1RXIrZWVVOGM3Q2F5dC9nZVVnSmNOdHA0Z2NCQlVRTVd5ZjAvMnJyMENvelE2SHFEUT09Cg==",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_0.6.0_x64-setup.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSXVqM3hiT2QyajFSOFdHVlJ4UUxpdGVoWW1VeGNHM091UGgvTy9qRzRjb0kwU3h0TFc4dmY3YjRtUnJZTEZiMmh5TTVDTmh1N2JEbjJ2dEdiUWFlNEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5OTQzCWZpbGU6UHl4aWRhXzAuNi4wX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC42LjAKQjV0SzNFRzFoNTA2bDVMUzA0bU9tZ05kY0RmSDhHcXYzbDY2R3BIS0hObGpJS2JNek1PeHdHdWRDeDdHUld0SDFEUGk2Z1lZeW1BY2F2RG5xUHhiQ0E9PQo=",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_0.6.0_amd64.AppImage"
+    },
+    "linux-x86_64-appimage": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSXVqM3hiT2QyajFSOFdHVlJ4UUxpdGVoWW1VeGNHM091UGgvTy9qRzRjb0kwU3h0TFc4dmY3YjRtUnJZTEZiMmh5TTVDTmh1N2JEbjJ2dEdiUWFlNEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5OTQzCWZpbGU6UHl4aWRhXzAuNi4wX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC42LjAKQjV0SzNFRzFoNTA2bDVMUzA0bU9tZ05kY0RmSDhHcXYzbDY2R3BIS0hObGpJS2JNek1PeHdHdWRDeDdHUld0SDFEUGk2Z1lZeW1BY2F2RG5xUHhiQ0E9PQo=",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_0.6.0_amd64.AppImage"
+    },
+    "linux-x86_64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSW84Vnd3aEZ5bGdXbmdWV0VNS0txQXVocElVR2UyZStXN05Ia1pzMUExSExsMUlyWHZZQmpGNlEyQ0QrYlZFQ01kVzJ3WmgwSFpSN2VrUzBMYlIvaEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5OTQzCWZpbGU6UHl4aWRhXzAuNi4wX2FtZDY0LmRlYgl2ZXJzaW9uOjAuNi4wCk8raXRndE5LU2tMKy95VHdxd0V1S0tLKzFhY2l0czZ1YzVRaVNDVjRZUDI3Uk1pUmFMMmtITzMzNXQxeEd1bVByM3l4QkNLdEtXVU5OSS9FKzU0dEN3PT0K",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida_0.6.0_amd64.deb"
+    },
+    "linux-x86_64-rpm": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTMVBVYnA1V2NkSXI0emRFOEdXeW1mbnFML1BmVlQrcktkZG4rRlJ5eElCSDN1dEwwV3FJVVJJbWRDRUs0cm9CS24rT3NXSWIwU3BYblloMm5kV0NjemQrVXlZbFZKMXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjI5OTQzCWZpbGU6UHl4aWRhLTAuNi4wLTEueDg2XzY0LnJwbQl2ZXJzaW9uOjAuNi4wClNTdDR5c1hXVG9VU1Q2NCt4ZGZPcU9WaWFHcG1VRC9SZWg1WXVaQ2Y1czFkWDFqUVNZSGtIUXNHaGNPR24yOFNuYVIwZS9ON3ZyQ1BhTU5TZVVKZkR3PT0K",
+      "url": "https://github.com/kx0101/pyxida-releases/releases/download/v0.6.0/Pyxida-0.6.0-1.x86_64.rpm"
     }
   }
 }
